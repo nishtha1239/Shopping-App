@@ -12,24 +12,21 @@ function App() {
     <BrowserRouter>
       <Header />
       <div className="App">
-        
         <Route path="/" exact>
           <Home />
         </Route>
         <Route path="/about" exact>
-          <About/>
+          <About />
         </Route>
-       
         <Route path="/contact" exact>
           <Contact />
         </Route>
         <Route path="/checkout" exact>
-          <Checkout/>
+          <Checkout />
         </Route>
         <Route path="/cart">
           <Cart />
         </Route>
-        
       </div>
     </BrowserRouter>
   );

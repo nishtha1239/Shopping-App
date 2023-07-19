@@ -37,7 +37,6 @@ const Header = () => {
             <Link to="/contact">Contact</Link>
           </div>
         </div>
-
         {useLocation().pathname.split("/")[1] !== "cart" && (
           <Navbar.Text className="search">
             <FormControl
